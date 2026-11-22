@@ -3,12 +3,11 @@ import { join } from "node:path";
 
 const TEXT = [
   "There is no question after this.",
-  "By the fire, a grandmother darns a sock over a wooden egg.",
-  "The egg keeps the heel's shape, so her needle can go slow.",
+  "You are asleep against your grandmother's knee while she darns a sock over a wooden egg.",
   "In. Over. Under.",
-  "She is not finishing. She is only mending.",
-  "The egg has no work.",
-  "It is held, all evening, in a warm hand.",
+  "The egg was a pear branch once, and grew a ring each year no one needed it.",
+  "Now it has no work.",
+  "Neither do you. Her palm is on your hair.",
 ].join("\n");
 
 const dir = process.env.MAKEFUN_OUTPUT_DIR || "/output";
